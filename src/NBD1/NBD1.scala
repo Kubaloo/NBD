@@ -1,8 +1,6 @@
-
-
+package NBD1
 
 import scala.annotation.tailrec
-
 
 object NBD1 extends App {
 
@@ -17,21 +15,21 @@ object NBD1 extends App {
   val listRzeczywiste = List(-8, 4.7, 33.12, 100)
 
 
-    println(printAllDays(daysOfTheWeek))
-    println(printDaysStartingWithP(daysOfTheWeek))
-    println(printDaysWithWhileLoop(daysOfTheWeek))
-    printDaysRecurency(0)
-    reversePrintDaysRecurency(daysOfTheWeek.size-1)
-    printDaysTailRecurency(0)
-    println(printDaysFoldl(daysOfTheWeek))
-    println(printDaysFoldr(daysOfTheWeek))
-    println(printDaysFoldlThatStartsWithP(daysOfTheWeek))
-    println(collectionMapping(map))
-    println(krotka())
-    println(optionCase(map))
-    println(removeZerosFromList(list))
-    println(incrementAllElements(list))
-    println(absoluteValues(listRzeczywiste))
+  println(printAllDays(daysOfTheWeek))
+  println(printDaysStartingWithP(daysOfTheWeek))
+  println(printDaysWithWhileLoop(daysOfTheWeek))
+  printDaysRecurency(0)
+  reversePrintDaysRecurency(daysOfTheWeek.size - 1)
+  printDaysTailRecurency(0)
+  println(printDaysFoldl(daysOfTheWeek))
+  println(printDaysFoldr(daysOfTheWeek))
+  println(printDaysFoldlThatStartsWithP(daysOfTheWeek))
+  println(collectionMapping(map))
+  println(krotka())
+  println(optionCase(map))
+  println(removeZerosFromList(list))
+  println(incrementAllElements(list))
+  println(absoluteValues(listRzeczywiste))
 
   //1a
   def printAllDays(daysOfTheWeek: List[String]): String = {
