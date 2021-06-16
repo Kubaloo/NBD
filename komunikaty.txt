@@ -1,0 +1,5 @@
+/usr/local/lib/python2.7/dist-packages/riak/security.py:45: UserWarning: OpenSSL 1.0.1f 6 Jan 2014 (>= 1.0.1g required), TLS 1.2 support: False
+  warnings.warn(msg, UserWarning)
+{u'price': 2137, u'quantity': u'10', u'name': u'Bike'}
+{u'price': 210000, u'quantity': u'100', u'name': u'Car'}
+None
